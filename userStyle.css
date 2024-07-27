@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           vtopcc.vit.ac.in/vtop/content - Jul 2024
-@namespace      github.com/openstyles/stylus
+@name           VTOP Dark Mode
+@namespace      https://github.com/arora-archit/darkVTOP
 @version        1.0.0
-@description    A new userstyle
-@author         Me
+@description    Dark mode for VTOP
+@author         godamnit
 ==/UserStyle== */
 @-moz-document url-prefix("https://vtopcc.vit.ac.in/") {
     .card-body {

@@ -1,0 +1,237 @@
+/* ==UserStyle==
+@name           vtopcc.vit.ac.in/vtop/content - Jul 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document url-prefix("https://vtopcc.vit.ac.in/") {
+    .card-body {
+        background: gray!important;
+    }
+    .card-header strong {
+        color: white!important;
+    }
+    .d-flex {
+        background: gray;
+    }
+    .list-group-item {
+        background: gray;
+    }
+    #sidePanel {
+        background: #595656;
+    }
+    .iconSpace {
+        color: white;
+        padding: 10px;
+    }
+    .offcanvas-body {
+        background: gray;
+    }
+    .box {
+        background: gray;
+    }
+    h3.box-title {
+        color: white;
+    }
+    h3 b {
+        color: white;
+    }
+    .accordion {
+        background: gray;
+    }
+    .accordion-item {
+        background: gray;
+    }
+    .card {
+        background: gray!important;
+    }
+    .col-form-label {
+        color: white;
+    }
+    .dropdown-item {
+        color: white;
+    }
+    .dropdown-item:hover {
+        background: #696969;
+    }
+    li {
+        color: white;
+    }
+    .iconSpaceHeader {
+        color: white;
+    }
+    .textColor1 {
+        color: white;
+    }
+    .dropdown-menu {
+        background: gray;
+    }
+    .fg-black {
+        color: white;
+    }
+    .fg-black:hover {
+        background: gray;
+        color: lightblue;
+    }
+    .showBlock {
+        background: gray;
+    }
+    .menuHeaderColor {
+        background: #696969;
+        color: white;
+    }
+    .textColor2 {
+        color: white;
+    }
+    .textColor2:hover {
+        color: lightblue;
+    }
+    .fw-bold:not(.fa-eye),
+    .fw-light {
+        color: lightcyan!important;
+    }
+    .box-header h3 {
+        color: white;
+    }
+    .panel-body {
+        background: #696969;
+    }
+    .panel-body span {
+        color: #2bbe2b!important;
+    }
+    .indicator {
+        color: white;
+    }
+    a {
+        color: lightblue!important;
+    }
+    li.branch::before {
+        background: #696969!important;
+    }
+    li::before {
+        background: #696969!important;
+    }
+    .WhiteBackground {
+        background: gray;
+        color: white;
+    }
+    .form-select {
+        color: black!important;
+    }
+    label {
+        color: #e5e5e5;
+    }
+
+    .accordion-button:not(.py-2) {
+        background: rgb(69, 97, 138)!important;
+        background: radial-gradient(circle, rgba(69, 97, 138, 1) 15%, rgba(2, 0, 36, 1) 94%)!important;
+        border-radius: 15px;
+    }
+    .fa:not(.iconSpace, .iconSpaceHeader, .fa-6, .fa-user, .fa-eye, .fa-refresh) {
+        color: white!important;
+        width: 50px!important;
+        height: 45px!important;
+    }
+    .accordion-button strong {
+        color: white!important;
+    }
+    .modal-content {
+        background: gray;
+    }
+    .modal-body h4 {
+        color: lightblue!important;
+    }
+    .modal-title {
+        color: #f00!important;
+    }
+    .fa-6 {
+        color: Red;
+    }
+    a.btn {
+        color: black!important;
+        background: #696969;
+        border-color: black;
+    }
+    .light-box {
+        background: #696969;
+        border-color: gray;
+    }
+    tr {
+        background: gray!important;
+    }
+    tr td {
+        color: white!important;
+    }
+    td.text-primary {
+        color: lightblue!important;
+    }
+    th {
+        color: #feffff;
+    }
+    .head-box {
+        background: gray;
+    }
+    .col-sm-offset-2 {
+        background: #4c4949;
+    }
+    .table caption {
+        background: transparent!important;
+        border-color: #2874a6!important;
+    }
+    h4 {
+        color: white!important;
+    }
+    .text-left,
+    ol li span {
+        color: white!important;
+    }
+    .box-footer {
+        background: gray;
+        border-color: gray;
+    }
+    .table.thead {
+        border-color: black!important;
+    }
+    #meetingRequest div {
+        background: gray!important;
+    }
+    div.fortnightly.col-sm-12 {
+        background: gray;
+    }
+    .tableContent {
+        color: white;
+    }
+    .tableHeader td {
+        color: black!important;
+    }
+    #fixedTableContainer tr td {
+        color: white;
+    }
+    .box-body {
+        background: #595555;
+    }
+    .table-responsive span {
+        color: #000!important;
+    }
+    #custom-tabs-one-profile-tab_0.nav-link:hover,
+    #custom-tabs-one-profile-tab_1.nav-link:hover,
+    #custom-tabs-one-profile-tab_2.nav-link:hover,
+    #custom-tabs-one-profile-tab_3.nav-link:hover,
+    #custom-tabs-one-profile-tab_4.nav-link:hover,
+    #custom-tabs-one-profile-tab_5.nav-link:hover,
+    #custom-tabs-one-profile-tab_6.nav-link:hover,
+    #custom-tabs-one-profile-tab_7.nav-link:hover,
+    #custom-tabs-one-profile-tab_8.nav-link:hover {
+        background: #4d4b4b;
+    }
+    .table td b {
+        color: white!important;
+    }
+    li.active {
+        color: #d72c2c;
+    }
+    div#bodyContent.card-body {
+        background: gray!important;
+    }
+}

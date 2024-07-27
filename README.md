@@ -1,2 +1,2 @@
 # darkVTOP
-Dark mode for VTOP **WIP**
+Dark mode for VTOP (**WIP**)

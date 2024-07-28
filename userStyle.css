@@ -1,304 +1,313 @@
-.card-body {
-    background: #3f3f3f!important;
-    border-radius: 11px;
-    margin-bottom: 10px;
-    margin-top: 3px;
-}
-.card-header {
-    background: transparent;
-    border: none;
-    padding: 7px;
-    margin: 2px;
-    text-align: center;
-}
-.card-header strong {
-    color: white!important;
-}
-.d-flex:not(li.bg-transparent:nth-child()) {
-    background: #555454;
-}
-.list-group-item {
-    background: #555454;
-}
-#sidePanel {
-    background: #595656;
-}
-.iconSpace {
-    color: white!important;
-    padding: 10px;
-}
-.offcanvas-body {
-    background: #555454;
-}
-.box {
-    background: #555454;
-}
-h3.box-title {
-    color: white;
-}
-h3 b {
-    color: white;
-}
-.accordion {
-    background: #555454;
-}
-.accordion-item {
-    background: #555454;
-}
-.card {
-    background:#282828!important;
-    padding-left:20px;
-    padding-right: 20px;
-    padding-top: 10px;
-}
-.col-form-label {
-    color: white;
-}
-.dropdown-item {
-    color: white;
-}
-.dropdown-item:hover {
-    background: #696969;
-}
-li {
-    color: white;
-}
-.iconSpaceHeader {
-    color: white!important;
-}
-.textColor1 {
-    color: white;
-}
-.dropdown-menu {
-    background: #555454;
-}
-.fg-black {
-    color: white;
-}
-.fg-black:hover {
-    background: #555454;
-    color: lightblue;
-}
-.showBlock {
-    background: #555454;
-}
-.menuHeaderColor {
-    background: #696969;
-    color: white;
-}
-.textColor2 {
-    color: white;
-}
-.textColor2:hover {
-    color: lightblue;
-}
-.fw-bold:not(.fa-eye),
-.fw-light {
-    color: lightcyan!important;
-}
-.box-header h3 {
-    color: white;
-}
-.panel-body {
-    background: #696969;
-}
-.panel-body span {
-    color: #2bbe2b!important;
-}
-.indicator {
-    color: white;
-}
-a {
-    color: lightblue!important;
-}
-li.branch::before {
-    background: #696969!important;
-}
-li::before {
-    background: #696969!important;
-}
-.WhiteBackground {
-    background: #121212;
-    color: white;
-}
-.form-select {
-    color: black!important;
-}
-label {
-    color: #e5e5e5;
-}
+/* ==UserStyle==
+@name           VTOP Dark Mode
+@namespace      https://github.com/arora-archit/darkVTOP
+@version        1.1.0
+@description    Dark mode for VTOP
+@author         godamnit
+==/UserStyle== */
+@-moz-document url-prefix("https://vtopcc.vit.ac.in/") {
+    .card-body {
+        background: #3f3f3f!important;
+        border-radius: 11px;
+        margin-bottom: 10px;
+        margin-top: 3px;
+    }
+    .card-header {
+        background: transparent;
+        border: none;
+        padding: 7px;
+        margin: 2px;
+        text-align: center;
+    }
+    .card-header strong {
+        color: white!important;
+    }
+    .d-flex:not(li.bg-transparent:nth-child()) {
+        background: #555454;
+    }
+    .list-group-item {
+        background: #555454;
+    }
+    #sidePanel {
+        background: #595656;
+    }
+    .iconSpace {
+        color: white!important;
+        padding: 10px;
+    }
+    .offcanvas-body {
+        background: #555454;
+    }
+    .box {
+        background: #555454;
+    }
+    h3.box-title {
+        color: white;
+    }
+    h3 b {
+        color: white;
+    }
+    .accordion {
+        background: #555454;
+    }
+    .accordion-item {
+        background: #555454;
+    }
+    .card {
+        background:#282828!important;
+        padding-left:20px;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+    .col-form-label {
+        color: white;
+    }
+    .dropdown-item {
+        color: white;
+    }
+    .dropdown-item:hover {
+        background: #696969;
+    }
+    li {
+        color: white;
+    }
+    .iconSpaceHeader {
+        color: white!important;
+    }
+    .textColor1 {
+        color: white;
+    }
+    .dropdown-menu {
+        background: #555454;
+    }
+    .fg-black {
+        color: white;
+    }
+    .fg-black:hover {
+        background: #555454;
+        color: lightblue;
+    }
+    .showBlock {
+        background: #555454;
+    }
+    .menuHeaderColor {
+        background: #696969;
+        color: white;
+    }
+    .textColor2 {
+        color: white;
+    }
+    .textColor2:hover {
+        color: lightblue;
+    }
+    .fw-bold:not(.fa-eye),
+    .fw-light {
+        color: lightcyan!important;
+    }
+    .box-header h3 {
+        color: white;
+    }
+    .panel-body {
+        background: #696969;
+    }
+    .panel-body span {
+        color: #2bbe2b!important;
+    }
+    .indicator {
+        color: white;
+    }
+    a {
+        color: lightblue!important;
+    }
+    li.branch::before {
+        background: #696969!important;
+    }
+    li::before {
+        background: #696969!important;
+    }
+    .WhiteBackground {
+        background: #121212;
+        color: white;
+    }
+    .form-select {
+        color: black!important;
+    }
+    label {
+        color: #e5e5e5;
+    }
 
-.accordion-button:not(.py-2) {
-    background: rgb(69, 97, 138)!important;
-    background: radial-gradient(circle, rgba(69, 97, 138, 1) 15%, rgba(2, 0, 36, 1) 94%)!important;
-    border-radius: 15px;
-}
-.fa:not(.iconSpace, .iconSpaceHeader, .fa-6, .fa-user, .fa-eye, .fa-refresh) {
-    color: white!important;
-    width: 50px!important;
-    height: 45px!important;
-}
-.accordion-button strong {
-    color: white!important;
-}
-.modal-content {
-    background: #555454;
-}
-.modal-body h4 {
-    color: lightblue!important;
-}
-.modal-title {
-    color: #f00!important;
-}
-.fa-6 {
-    color: Red;
-}
-a.btn {
-    color: black!important;
-    background: #696969;
-    border-color: black;
-}
-.light-box {
-    background: #696969;
-    border-color: #555454;
-}
-tr {
-    background: #555454!important;
-}
-tr td {
-    color: white!important;
-}
-td.text-primary {
-    color: lightblue!important;
-}
-th {
-    color: #feffff;
-}
-.head-box {
-    background: #555454;
-}
-.col-sm-offset-2 {
-    background: #4c4949;
-}
-.table caption {
-    background: transparent!important;
-    border-color: #2874a6!important;
-}
-h4 {
-    color: white!important;
-}
-.text-left,
-ol li span {
-    color: white!important;
-}
-.box-footer {
-    background: #555454;
-    border-color: #555454;
-}
-.table.thead {
-    border-color: black!important;
-}
-#meetingRequest div {
-    background: #555454!important;
-}
-div.fortnightly.col-sm-12 {
-    background: #555454;
-}
-.tableContent {
-    color: white;
-}
-.tableHeader td {
-    color: black!important;
-}
-#fixedTableContainer tr td {
-    color: white;
-}
-.box-body {
-    background: #595555;
-}
-.table-responsive span {
-    color: #000!important;
+    .accordion-button:not(.py-2) {
+        background: rgb(69, 97, 138)!important;
+        background: radial-gradient(circle, rgba(69, 97, 138, 1) 15%, rgba(2, 0, 36, 1) 94%)!important;
+        border-radius: 15px;
+    }
+    .fa:not(.iconSpace, .iconSpaceHeader, .fa-6, .fa-user, .fa-eye, .fa-refresh) {
+        color: white!important;
+        width: 50px!important;
+        height: 45px!important;
+    }
+    .accordion-button strong {
+        color: white!important;
+    }
+    .modal-content {
+        background: #555454;
+    }
+    .modal-body h4 {
+        color: lightblue!important;
+    }
+    .modal-title {
+        color: #f00!important;
+    }
+    .fa-6 {
+        color: Red;
+    }
+    a.btn {
+        color: black!important;
+        background: #696969;
+        border-color: black;
+    }
+    .light-box {
+        background: #696969;
+        border-color: #555454;
+    }
+    tr {
+        background: #555454!important;
+    }
+    tr td {
+        color: white!important;
+    }
+    td.text-primary {
+        color: lightblue!important;
+    }
+    th {
+        color: #feffff;
+    }
+    .head-box {
+        background: #555454;
+    }
+    .col-sm-offset-2 {
+        background: #4c4949;
+    }
+    .table caption {
+        background: transparent!important;
+        border-color: #2874a6!important;
+    }
+    h4 {
+        color: white!important;
+    }
+    .text-left,
+    ol li span {
+        color: white!important;
+    }
+    .box-footer {
+        background: #555454;
+        border-color: #555454;
+    }
+    .table.thead {
+        border-color: black!important;
+    }
+    #meetingRequest div {
+        background: #555454!important;
+    }
+    div.fortnightly.col-sm-12 {
+        background: #555454;
+    }
+    .tableContent {
+        color: white;
+    }
+    .tableHeader td {
+        color: black!important;
+    }
+    #fixedTableContainer tr td {
+        color: white;
+    }
+    .box-body {
+        background: #595555;
+    }
+    .table-responsive span {
+        color: #000!important;
 
-}
-#custom-tabs-one-profile-tab_0.nav-link:hover,
-#custom-tabs-one-profile-tab_1.nav-link:hover,
-#custom-tabs-one-profile-tab_2.nav-link:hover,
-#custom-tabs-one-profile-tab_3.nav-link:hover,
-#custom-tabs-one-profile-tab_4.nav-link:hover,
-#custom-tabs-one-profile-tab_5.nav-link:hover,
-#custom-tabs-one-profile-tab_6.nav-link:hover,
-#custom-tabs-one-profile-tab_7.nav-link:hover,
-#custom-tabs-one-profile-tab_8.nav-link:hover {
-    background: #4d4b4b;
-}
-.table td b {
-    color: white!important;
-}
-li.active {
-    color: #d72c2c;
-}
-div#bodyContent.card-body {
-    background: #575757!important;
-}
-.small {
-    color: white;
-}
-strong.fw-bold:hover, .w-75 a span:hover{
-    background: #5e5d5d;
-    padding: 2px;
-}
-.popup {
-    border-color: gray;
-    background: gray;
-}
-.offcanvas-header {
-    background: #696969;
-}
-.customTable, .customTable > tbody > tr > td, .customTable > tbody > tr > th, .customTable > tfoot > tr > td, .customTable > tfoot > tr > th, .customTable > thead > tr > td, .customTable > thead > tr > th {
-    border: 1px solid #000!important; 
-}
-.box-header.with-border {
-    border-bottom: 0.5px solid #00c0ef;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 20px;
-}
-.box-body {
-    display:none;
-}
-.table-responsive {
-    margin-left: 50px;
-}
-div.col-md-6:nth-child(1) > div:nth-child(1) > div:nth-child(1), div.col-12:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
-    border-radius: 11px;
-    margin-bottom: 3px; 
-}
-.cardStudent, .cardEmployee, .cardAlumni, .cardParent {
-    background: #514e4e!important;
-}
-div.col-12:nth-child(2) > div:nth-child(1), div.col-md-6:nth-child(1) > div:nth-child(1) {
-    box-shadow: none!important;
-}
-#loginBox {
-    width: 40%!important;
-}
-#submitBtn {
-    height: 30px;
-    width: 100px;
-    margin-right: 42%
-}
-ul.fw-bold, ul.small {
-    background: #555454!important;
-    border-radius: 11px;
-}
-.list-group {
-    border-radius: 11px;
-    margin-top: 10px;
-}
-button.btn.btn-sm.btn-info.fw-bold.position-relative.mt-3 {
-    width: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 30px;
-    font-size: 15px;
+    }
+    #custom-tabs-one-profile-tab_0.nav-link:hover,
+    #custom-tabs-one-profile-tab_1.nav-link:hover,
+    #custom-tabs-one-profile-tab_2.nav-link:hover,
+    #custom-tabs-one-profile-tab_3.nav-link:hover,
+    #custom-tabs-one-profile-tab_4.nav-link:hover,
+    #custom-tabs-one-profile-tab_5.nav-link:hover,
+    #custom-tabs-one-profile-tab_6.nav-link:hover,
+    #custom-tabs-one-profile-tab_7.nav-link:hover,
+    #custom-tabs-one-profile-tab_8.nav-link:hover {
+        background: #4d4b4b;
+    }
+    .table td b {
+        color: white!important;
+    }
+    li.active {
+        color: #d72c2c;
+    }
+    div#bodyContent.card-body {
+        background: #575757!important;
+    }
+    .small {
+        color: white;
+    }
+    strong.fw-bold:hover, .w-75 a span:hover{
+        background: #5e5d5d;
+        padding: 2px;
+    }
+    .popup {
+        border-color: gray;
+        background: gray;
+    }
+    .offcanvas-header {
+        background: #696969;
+    }
+    .customTable, .customTable > tbody > tr > td, .customTable > tbody > tr > th, .customTable > tfoot > tr > td, .customTable > tfoot > tr > th, .customTable > thead > tr > td, .customTable > thead > tr > th {
+        border: 1px solid #000!important; 
+    }
+    .box-header.with-border {
+        border-bottom: 0.5px solid #00c0ef;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    .box-body {
+        display:none;
+    }
+    .table-responsive {
+        margin-left: 50px;
+    }
+    div.col-md-6:nth-child(1) > div:nth-child(1) > div:nth-child(1), div.col-12:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+        border-radius: 11px;
+        margin-bottom: 3px; 
+    }
+    .cardStudent, .cardEmployee, .cardAlumni, .cardParent {
+        background: #514e4e!important;
+    }
+    div.col-12:nth-child(2) > div:nth-child(1), div.col-md-6:nth-child(1) > div:nth-child(1) {
+        box-shadow: none!important;
+    }
+    #loginBox {
+        width: 40%!important;
+    }
+    #submitBtn {
+        height: 30px;
+        width: 100px;
+        margin-right: 42%
+    }
+    ul.fw-bold, ul.small {
+        background: #555454!important;
+        border-radius: 11px;
+    }
+    .list-group {
+        border-radius: 11px;
+        margin-top: 10px;
+    }
+    button.btn.btn-sm.btn-info.fw-bold.position-relative.mt-3 {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 30px;
+        font-size: 15px;
+    }
 }
